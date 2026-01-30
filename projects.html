@@ -5,20 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Aditya Mallesh</title>
   <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
   <link rel="stylesheet" href="css/projects.css" />
 </head>
 <body>
 
   <!-- Navbar (same as index.html) -->
   <nav class="navbar">
-    <div class="nav-logo">Aditya</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html" class="active">Projects</a></li>
-      <li><a href="notes.html">Notes</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+      <span class="nav-name">Aditya Mallesh</span>
+      <ul class="nav-links">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- Page Header -->
@@ -43,7 +46,8 @@
       <p class="project-tech">
         <strong>Tech:</strong> Python, NLP, OCR, Machine Learning
       </p>
-      <p class="project-status"><strong>Status:</strong> Ongoing</p>
+      <span class="status-badge ongoing">Ongoing</span>
+
     </div>
 
     <div class="project-card">
@@ -58,7 +62,8 @@
       <p class="project-tech">
         <strong>Tech:</strong> Python, Speech Recognition, NLP, APIs
       </p>
-      <p class="project-status"><strong>Status:</strong> Ongoing</p>
+      <span class="status-badge ongoing">Ongoing</span>
+
     </div>
 
   </section>
@@ -79,7 +84,8 @@
             <p class="project-tech">
                 <strong>Tech:</strong> Python, YOLOv8, Streamlit, OpenCV, Roboflow
             </p>
-            <p class="project-status"><strong>Status:</strong> Completed</p>
+            <span class="status-badge completed">Completed</span>
+
     </div>
 
 
@@ -95,7 +101,8 @@
       <p class="project-tech">
         <strong>Tech:</strong> Python, Pandas, NumPy, Matplotlib
       </p>
-      <p class="project-status"><strong>Status:</strong> Completed</p>
+      <span class="status-badge completed">Completed</span>
+
     </div>
 
   </section>
