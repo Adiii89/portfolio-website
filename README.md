@@ -13,7 +13,7 @@ This repository contains the source code for my personal portfolio website.
   - Notes(Blogs)
   - Resmue
   - Contact
-- Fully deployed using GitHub Pages
+- Fully deployed using GitHub Pages :- https://adiii89.github.io/portfolio-website/
 
 ---
 
@@ -35,7 +35,7 @@ The website is deployed using GitHub Pages:
 ---
 
 ## 📬 Contact
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/Adiii89
 - LinkedIn: www.linkedin.com/in/aditya-mallesh-669b94269
 
 ---
